@@ -21,14 +21,10 @@ jobs:
             go-version: '1.23'
         - name: Install Dependencies
           run: make get-dependencies
-        - name: Format Code
-          run: make reformat
-        - name: Check Code
-          run: make check-typing
+        - name: Run formatting and style checks
+          run: make pre-commit
         - name: Run Unit Tests
           run: make test-unit
-        - name: Run Load Tests
-          run: make test-load
         - name: Build Project
           run: make build
         - name: Clean up

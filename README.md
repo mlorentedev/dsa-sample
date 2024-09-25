@@ -4,7 +4,7 @@ This repository contains sample code for the Data Structures and Algorithms writ
 
 ## Project Structure
 
-- `pkg/`: Directory for source code
+- `core/`: Directory for source code
 - `tests/`: Directory for tests
 - `.gitignore`: The Git ignore file
 - `main.go`: Entry point of the application

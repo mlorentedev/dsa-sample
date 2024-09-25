@@ -59,6 +59,12 @@ check-typing: ## Check the typing of the code | make check-typing
 	@echo "Checking the typing of the code"
 	@go vet ./...
 
+.PHONY: pre-commit
+pre-commit: reformat check-typing
+	@echo "Running the pre-commit checks"
+	$(MAKE) reformat
+	$(MAKE) check-typing
+	
 .PHONY: test-unit
 test-unit: ## Run the unit tests | make test-unit
 	@echo "Running the unit tests"
