@@ -1,0 +1,4 @@
+Makefile linguist-language=ignore
+*.html linguist-language=ignore
+*.css linguist-language=ignore
+
