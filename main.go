@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/manulorente/dsa-sample/core"
 	"time"
+
+	algorithms "github.com/mlorentedev/dsa-sample/core/algorithms"
 )
 
 func main() {

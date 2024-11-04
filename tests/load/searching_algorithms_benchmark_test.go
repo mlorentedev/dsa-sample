@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	algorithms "github.com/manulorente/dsa-sample/core"
+	algorithms "github.com/mlorentedev/dsa-sample/core/algorithms"
 )
 
 const (
